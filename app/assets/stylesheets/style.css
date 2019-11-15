@@ -1,0 +1,43 @@
+.jumbo  {
+/* Centre l'image + responsive */
+font-family: "custom-headerfont",sans-serif;
+font-size: 80px; /* Titres de 80 pixels */
+font-weight: bold;  /* Titres en gras */
+color: white; /* Titres ecrit en blanc */
+text-align: center;  /* Titres centré */
+padding: 14rem  /* Titre commence 14 unites apres le haut de la page */
+}
+
+/*==============*/
+/*  ICI BANNER  */
+/*==============*/
+.banner{
+  margin-bottom: 0.5rem;
+  font-family: "Cabin Sketch", cursive;
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: black;
+  border-radius: 35px;
+  display: block;
+  position:relative;
+}
+.banner .img {
+  vertical-align: middle;
+  border-style: none;
+  display: block;
+}
+.jumbotron-hero {
+  /* Choisis la hauteur ici */
+  height: 700px;  /* Tu lui donnes une image de background */
+  background-image: url("java.png");  /* Centre l'image et la met bien sur tous les écrans */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.name {
+  font-family: "custom-headerfont",sans-serif;
+  text-align: center;
+  color: white;
+  display: flexbox;
+  margin-top : 50px;
+}
