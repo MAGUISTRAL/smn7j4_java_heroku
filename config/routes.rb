@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
   root 'welcome#index'
-  get '/index', to: 'welcome/index'
+  get '/index', to: 'welcome#index'
   get '/bonjour',  to: 'welcome#bonjour'
   get '/factorielle',  to: 'welcome#factorielle'
   get '/pyramide',  to: 'welcome#pyramide'

@@ -29,14 +29,12 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-
-    <a class="nav-link" <%= link_to "Accueil", welcome_index_path%></a>
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item">
-        <a class="nav-link text-light" <%= link_to "Bonjour+Salut", bonjour_path%></a>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="bonjour.html.erb">bonjour</a>
+        <a class="nav-link text-light" <%= link_to "Bonjour", bonjour_path%></a>
       </li>
       <li class="nav-item">
         <a class="nav-link text-light" <%= link_to "Factorielle", factorielle_path%></a>
